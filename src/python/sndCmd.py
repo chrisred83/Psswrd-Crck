@@ -3,7 +3,7 @@
 #First import subprocess module
 import subprocess
 #Read passwords from file
-#If using wordListPy.txt simply execute it
+#If using wordListPy.txt continue
 #If using wordlist_0.txt from crunch folder comment line 9 and uncomment line 10
 print("\n Loading file contents ...")
 psswrds = [line.strip() for line in open('wordListPy.txt')]
@@ -12,7 +12,7 @@ print("\n Processing ...")
 num = 0
 
 #Iterate list to send a command for each element in the list
-#Replace changeMe for the name of your target file
+#Replace fileName for the name of your target file
 for psswrd in psswrds:
 	cmnd = "openssl pkcs8 -in fileName.key -inform der -passin pass:"+psswrd
 	sndCmnd = subprocess.run(cmnd, capture_output=True)
