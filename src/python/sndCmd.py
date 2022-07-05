@@ -3,9 +3,11 @@
 #First import subprocess module
 import subprocess
 #Read passwords from file
-#Replace changeMe.txt for the name and extension of your file
+#If using wordListPy.txt simply execute it
+#If using wordlist_0.txt from crunch folder comment line 9 and uncomment line 10
 print("\n Loading file contents ...")
-psswrds = [line.strip() for line in open('wordList.txt')]
+psswrds = [line.strip() for line in open('wordListPy.txt')]
+#psswrds = [line.strip() for line in open('wordList_0.txt')]
 print("\n Processing ...")
 num = 0
 
