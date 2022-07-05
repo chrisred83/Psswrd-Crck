@@ -13,7 +13,7 @@ Where:
 If you want to create another wordList using permutations try using previous command with a different fileName and word so that you keep 
 previously generated files
 
-Once done save your generated file inside of folder: /src/python/ of this repo in your pc
+Once done save your generated file inside of folder: Psswrd-Crck/src/python/ of this repo in your pc
 
 Finally make sure to uncomment line 10 and comment line 9 of sndCmd.py then save it and execute it, so that it can use this file instead of the file created
 by perms.py which is wordListPy.txt
