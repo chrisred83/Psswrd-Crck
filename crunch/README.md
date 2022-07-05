@@ -1,6 +1,6 @@
 This folder contains an example of a wordlist using crunch
 
-Command was: crunch 8 8 -o /path/to/file/wordList_0.txt -p L1k3N5us
+Command was: crunch 8 8 -o wordList_0.txt -p L1k3N5us
 
 Where:
 
