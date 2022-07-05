@@ -33,7 +33,7 @@ Solution
     
   Programming
   
-    First i got permutations of a String using Python intertools and save them to a list
+    First i got permutations of a String using Python itertools and save them to a list
     
     Second create a file from the previous list
     
