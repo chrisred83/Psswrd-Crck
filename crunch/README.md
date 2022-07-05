@@ -1,13 +1,13 @@
 This folder contains an example of a wordlist using crunch
 
-Command was: crunch 8 8 -o wordList_0.txt -p L1k3N5us
+Command was: crunch 8 8 -o /home/username/Desktop wordList_0.txt -p L1k3N5us
 
 Where:
 
   8 8 is minLength maxLength
 
-  -o wordList_0.txt indicates to output words to the file: wordList_0.txt which you can change, notice that if no specific path is used file will be saved in
-                    the location where you executed the command
+  -o /home/username/Desktop wordList_0.txt indicates to output words to the file: wordList_0.txt which you can change, notice that if no specific path is used  
+                                           file will be saved in the location where you executed the command
 
   -p L1k3N5us indicates to obtain permutations of word L1k3N5us which you can change
 
