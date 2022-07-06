@@ -1,9 +1,10 @@
 #This is a sample wordlist created using crunch
-#Command used was: crunch 8 8 -o /home/username/Desktop wordlist_0.txt -p L1k3N5us
+#Command used was: crunch 8 8 -o /home/username/Desktop wordList_0.txt -p L1k3N5us
 #Replace:
 # /home/username/Desktop ->   with your desired path
-# wordlist_0             ->   with your desired fileName
+# wordList_0             ->   with your desired fileName
 # L1k3N5us               ->   with your known word/ppswrd
+#Remove all comments if you want to test this file with sndCmd.py
 ##################################################################################
 135LNksu
 135LNkus
