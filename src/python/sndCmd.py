@@ -13,6 +13,8 @@ num = 0
 
 #Iterate list to send a command for each element in the list
 #Replace fileName for the name of your target file
+#Make sure that type of key and inform option are consistent with your private key
+#otherwise command won't work and you may have to change it
 for psswrd in psswrds:
 	cmnd = "openssl pkcs8 -in fileName.key -inform der -passin pass:"+psswrd
 	sndCmnd = subprocess.run(cmnd, capture_output=True)
