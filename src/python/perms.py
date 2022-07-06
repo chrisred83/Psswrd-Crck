@@ -7,6 +7,6 @@ listaPalabras = [''.join(palabra) for palabra in permutations('palabraConocida')
 #Change C:\Users\Username\path\to\your\file\wordList.txt for repo file in your pc, keep quotes
 rutaAbsoluta = r"C:\Users\Username\path\to\your\file\wordListPy.txt"
 permsTxt = open(rutaAbsoluta, 'w')
-  for palabra in palabras:
-    permsTxt.write("%s\n" % palabra)
-  permsTxt.close()
+for palabra in listaPalabras:
+  permsTxt.write("%s\n" % palabra)
+permsTxt.close()
